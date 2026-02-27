@@ -1,0 +1,22 @@
+{
+  "name": "vibe-coding-capstone",
+  "version": "1.0.0",
+  "description": "NEOLAF Vibe Coding Bootcamp — Weeks 4-5: Personal Agent + Capstone",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cloudflare/agents": "^0.0.1",
+    "hono": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0",
+    "wrangler": "^3.0.0"
+  },
+  "private": true
+}
